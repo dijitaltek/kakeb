@@ -185,12 +185,13 @@ body {
   border-left: 2px solid #4A4A4A;
   border-right: 2px solid #4A4A4A;
   background: #615C3C url("../arabirim/bg.png") 0 0 repeat; }
+  
   .icyapi .icerik {
     padding-right: 30px;
     margin-left: 10px;
     align-content: flex-start;
     font-family: century gothic;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: none;
     line-height: 24px;
     text-indent: 30px;
@@ -224,6 +225,74 @@ body {
     text-indent: 30px;
     text-align: left;
     text-shadow: 3px 4px 12px black; }
+.d-flex{
+  padding-bottom: 10px;
+}
+.gorev{
+  margin: 0;
+  padding: 12px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: #fdfafa;
+  background-color: #4A4A4A;
+  padding-bottom: 15px;
+  border-radius: 19px;
+  -moz-border-radius: 19px;
+  -webkit-border-radius: 19px;
+  min-height: 50px;
+  line-height: normal;
+  text-height: bold;
+  border-left: 2px solid #F3CB0C;
+  border-right: 2px solid #F3CB0C;
+}
+.gorev .gorevicerik {
+  padding-right: 10px;
+  margin-left: 0px;
+  align-content: flex-start;
+  color: #E6B800;
+  font-family: century gothic;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  text-indent: 30px;
+  text-align: left;
+  text-shadow: 3px 4px 12px black; }
+
+  .temsilci {
+    width: 40%;
+    display: table;
+    margin:0 auto 0 auto;
+
+}
+    .temsilci div {
+        display: table-row;        
+    }
+
+        .temsilci div div {
+            display: table-cell;
+            padding-right: 10px;
+            margin-left: 0px;
+            align-content: flex-start;
+            color: #E6B800;
+            font-family: century gothic;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 20px;
+            text-indent: 30px;
+            text-align: left;
+            text-shadow: 3px 4px 12px black;
+        }
+            .temsilci div div.bas {
+              padding-bottom: 10px;
+              color: #fff;
+              font-family: century gothic;              
+              font-size: 14px;
+              font-weight: none;
+              text-align: center;
+              text-shadow: none;
+
+            }
+          
 
 .sayfaa {
   margin: 0;
